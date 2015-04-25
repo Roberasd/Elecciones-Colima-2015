@@ -287,7 +287,7 @@ function MostrarPropuesta(modo, prop)
 					makeShort(container, window.location.origin + window.location.pathname + '#candidato/'+candidato.nombre.split(' ').join('-')+'/#propuesta/'+'p'+id, function(){
 						window.open('https://twitter.com/intent/tweet?'+
 						'related=PartidodelaRed&'+
-						'text='+ 'Hola ' + candidato.twitter + " quiero decirte sobre tu propuesta "+container.dataset.shorturl+" %23yvosquepropones", 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
+						'text='+ 'Hola ' + candidato.twitter + " quiero decirte sobre tu propuesta "+container.dataset.shorturl+" %23ytuquepropones", 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
 					});
 				});
 				$(container).append(tweet);
