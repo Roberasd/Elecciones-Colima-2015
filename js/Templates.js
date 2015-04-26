@@ -101,8 +101,8 @@ function HeaderPartido(part)
 	$(tweet).click(function(e) {
 		makeShort(container, window.location.origin + window.location.pathname + '#partido/'+part.nombre.split(' ').join('-'), function(){
 			window.open('https://twitter.com/intent/tweet?'+
-			'related=PartidodelaRed&'+
-			'text='+ '%23yvosquepropones Mirá las propuestas para CABA de ' + part.nombre +' '+container.dataset.shorturl, 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
+			'related=ObservatorioCiudadano&'+
+			'text='+ '%23ytuquepropones Mirá las propuestas para Colima de ' + part.nombre +' '+container.dataset.shorturl, 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
 		});
 	});
 	$(nombre).append(tweet);
@@ -183,8 +183,8 @@ function HeaderCandidato(cand)
 	$(tweet).click(function(e) {
 		makeShort(container, window.location.origin + window.location.pathname + '#candidato/'+cand.nombre.split(' ').join('-'), function(){
 			window.open('https://twitter.com/intent/tweet?'+
-			'related=PartidodelaRed&'+
-			'text='+ '%23yvosquepropones Mirá las propuestas para CABA de ' + cand.nombre +' '+container.dataset.shorturl, 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
+			'related=ObservatorioCiudadano&'+
+			'text='+ '%23ytuquepropones Mirá las propuestas para Colima de ' + cand.nombre +' '+container.dataset.shorturl, 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
 		});
 	});
 	$(container).append(tweet);

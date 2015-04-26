@@ -401,8 +401,8 @@ function NoPropuesta(cosa)
 			$(tweet).click(function(e) {
 				makeShort(cont, window.location.origin + window.location.pathname + '#candidato/'+a.nombre.split(' ').join('-'), function(){
 					window.open('https://twitter.com/intent/tweet?'+
-						'related=PartidodelaRed&'+
-						'text=' + 'Hola ' + a.twitter + ' %23yvosquepropones para la Ciudad sobre ' + $(e.target).parents('.tipo').children('.title').children('span').html() +' '+ cont.dataset.shorturl, 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
+						'related=ObservatorioCiudadano&'+
+						'text=' + 'Hola ' + a.twitter + ' %23ytuquepropones para la Ciudad sobre ' + $(e.target).parents('.tipo').children('.title').children('span').html() +' '+ cont.dataset.shorturl, 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
 				});
 			});
 			$(tweetContainer).append(tweet);
@@ -426,8 +426,8 @@ function NoPropuesta(cosa)
 			$(tweet).click(function(e) {
 				makeShort(cont, window.location.origin + window.location.pathname + '#candidato/'+cosa.nombre.split(' ').join('-'), function(){
 					window.open('https://twitter.com/intent/tweet?'+
-						'related=PartidodelaRed&'+
-						'text=' + 'Hola ' + cosa.twitter + ' %23yvosquepropones para la Ciudad sobre '+$(e.target).parents('.tipo').children('.title').children('span').html() +' '+ cont.dataset.shorturl, 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
+						'related=ObservatorioCiudadano&'+
+						'text=' + 'Hola ' + cosa.twitter + ' %23ytuquepropones para la Ciudad sobre '+$(e.target).parents('.tipo').children('.title').children('span').html() +' '+ cont.dataset.shorturl, 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
 				});
 			});
 		$(tweetContainer).append(tweet);
@@ -445,17 +445,17 @@ function CambiarURL(tipo, cosa)
 	{
 		case 0:
 		{
-			title = '¿Que proponen? - ' +cosa.nombre + ' - Partido de la Red';
+			title = '¿Que proponen? - ' +cosa.nombre + ' - Observatorio Ciudadano';
 			url = window.location.origin + window.location.pathname + '#partido/'+(cosa.nombre.split(' ').join('-'));
 		}break;
 		case 1:
 		{
-			title = '¿Que proponen? - ' +cosa.nombre + ' - Partido de la Red';
+			title = '¿Que proponen? - ' +cosa.nombre + ' - Observatorio Ciudadano';
 			url = window.location.origin + window.location.pathname + '#candidato/'+(cosa.nombre.split(' ').join('-'));
 		}break;
 		case 2:
 		{
-			title = '¿Que proponen? - ' +cosa.titulo + ' - Partido de la Red';
+			title = '¿Que proponen? - ' +cosa.titulo + ' - Observatorio Ciudadano';
 			url = window.location.origin + window.location.pathname + '#propuesta/'+(cosa.titulo.split(' ').join('-'));
 		}break;
 		case 3:
