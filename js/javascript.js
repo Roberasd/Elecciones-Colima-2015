@@ -29,7 +29,7 @@ function MostrarPartido(modo, part)
 
 			var imagen = document.createElement('div');
 			$(imagen).addClass('imagenPartido');
-			$(imagen).css('background-image', 'url(IMG/partidos/' + part.imagen + ')');
+			$(imagen).css('background-image', 'url(img/partidos/' + part.imagen + ')');
 			$(container).append(imagen);
 			
 			var nombre = document.createElement('div');
@@ -96,7 +96,7 @@ function MostrarCandidato(modo, cand)
 
 			var imagen = document.createElement('div');
 			$(imagen).addClass('imagenCandidato');
-			$(imagen).css('background-image', 'url(IMG/candidatos/' + cand.imagen + ')');
+			$(imagen).css('background-image', 'url(img/candidatos/' + cand.imagen + ')');
 			$(container).append(imagen);
 
 			var cont = document.createElement('div');
@@ -173,7 +173,7 @@ function MostrarCandidato(modo, cand)
 
 			var imagen = document.createElement('div');
 			$(imagen).addClass('imagenCandidato_mini');
-			$(imagen).css('background-image', 'url(IMG/candidatos/' + cand.imagen + ')');
+			$(imagen).css('background-image', 'url(img/candidatos/' + cand.imagen + ')');
 			$(container).append(imagen);
 
 			var nombre = document.createElement('div');

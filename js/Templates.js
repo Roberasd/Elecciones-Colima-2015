@@ -18,40 +18,40 @@ function MostrarContenedor(tipo)
 			template = "<div class='propuestasContainer'>"+
 					"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'>Propuestas</div>"+
 					"<div class='tipo'>"+
-						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)' ><img src='IMG/temas/salud.png' height='50' width='50' /><span style='color:"+temas.SALUD.color+";'>Salud</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
+						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)' ><img src='img/temas/salud.png' height='50' width='50' /><span style='color:"+temas.SALUD.color+";'>Salud</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
 					"<div id='salud' class='contPropuestas'></div> </div>"+
 					"<div class='tipo'>"+
-						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='IMG/temas/vivienda.png' height='50' width='50' /><span style='color:"+temas.VIVIENDA.color+";'>Vivienda</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
+						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='img/temas/vivienda.png' height='50' width='50' /><span style='color:"+temas.VIVIENDA.color+";'>Vivienda</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
 					"<div id='vivienda' class='contPropuestas'></div></div>"+
 					"<div class='tipo'>"+
-						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='IMG/temas/sociedad.png' height='50' width='50' /><span style='color:"+temas.SOCIEDAD.color+";'>Sociedad</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
+						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='img/temas/sociedad.png' height='50' width='50' /><span style='color:"+temas.SOCIEDAD.color+";'>Sociedad</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
 					"<div id='sociedad' class='contPropuestas'></div></div>"+
 					"<div class='tipo'>"+
-						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='IMG/temas/institucional.png' height='50' width='50' /><span style='color:"+temas.INSTITUCIONAL.color+";'>Institucionalidad</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
+						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='img/temas/institucional.png' height='50' width='50' /><span style='color:"+temas.INSTITUCIONAL.color+";'>Institucionalidad</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
 					"<div id='institucional' class='contPropuestas'></div></div>"+
 					"<div class='tipo'>"+
-						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='IMG/temas/planificacionUrbana.png' height='50' width='50' /><span style='color:"+temas.PLANEAMIENTO_URBANO.color+";'>Planeamiento Urbano</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
+						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='img/temas/planificacionUrbana.png' height='50' width='50' /><span style='color:"+temas.PLANEAMIENTO_URBANO.color+";'>Planeamiento Urbano</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
 					"<div id='planeamientoUrbano' class='contPropuestas'></div></div>"+
 					"<div class='tipo'>"+
-						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='IMG/temas/seguridad.png' height='50' width='50' /><span style='color:"+temas.SEGURIDAD.color+";'>Seguridad</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
+						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='img/temas/seguridad.png' height='50' width='50' /><span style='color:"+temas.SEGURIDAD.color+";'>Seguridad</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
 					"<div id='seguridad' class='contPropuestas'></div></div>"+
 					"<div class='tipo'>"+
-						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='IMG/temas/medioAmbiente.png' height='50' width='50' /><span style='color:"+temas.MEDIO_AMBIENTE.color+";'>Medio Ambiente</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
+						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='img/temas/medioAmbiente.png' height='50' width='50' /><span style='color:"+temas.MEDIO_AMBIENTE.color+";'>Medio Ambiente</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
 					"<div id='medioAmbiente' class='contPropuestas'></div></div>"+
 					"<div class='tipo'>"+
-						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='IMG/temas/economia.png' height='50' width='50' /><span style='color:"+temas.ECONOMIA.color+";'>Economía</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
+						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='img/temas/economia.png' height='50' width='50' /><span style='color:"+temas.ECONOMIA.color+";'>Economía</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
 					"<div id='economia' class='contPropuestas'></div></div>"+
 					"<div class='tipo'>"+
-						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='IMG/temas/internacional.png' height='50' width='50' /><span style='color:"+temas.INTERNACIONAL.color+";'>Asuntos Internacionales</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
+						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='img/temas/internacional.png' height='50' width='50' /><span style='color:"+temas.INTERNACIONAL.color+";'>Asuntos Internacionales</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
 					"<div id='internacional' class='contPropuestas'></div></div>"+
 					"<div class='tipo'>"+
-						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='IMG/temas/educacion.png' height='50' width='50' /><span style='color:"+temas.EDUCACION.color+";'>Educación</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
+						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='img/temas/educacion.png' height='50' width='50' /><span style='color:"+temas.EDUCACION.color+";'>Educación</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
 					"<div id='educacion' class='contPropuestas'></div></div>"+
 					"<div class='tipo'>"+
-						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='IMG/temas/transporte.png' height='50' width='50' /><span style='color:"+temas.TRANSPORTE.color+";'>Transporte</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
+						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='img/temas/transporte.png' height='50' width='50' /><span style='color:"+temas.TRANSPORTE.color+";'>Transporte</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
 					"<div id='transporte' class='contPropuestas'></div></div>"+
 					"<div class='tipo'>"+
-						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='IMG/temas/derechosHumanos.png' height='50' width='50' /><span style='color:"+temas.DERECHOS_HUMANOS.color+";'>Derechos Humanos</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
+						"<div class='title' onclick='javascript:ToggleCategoriaBarra(this)'><img src='img/temas/derechosHumanos.png' height='50' width='50' /><span style='color:"+temas.DERECHOS_HUMANOS.color+";'>Derechos Humanos</span><div class='arrowButton down'></div><span class='quantityList'>0</span></div>"+
 					"<div id='derechosHumanos' class='contPropuestas'></div></div>"+
 				"</div> ";
 			break;
@@ -86,7 +86,7 @@ function HeaderPartido(part)
 	
 	var imagen = document.createElement('div');
 	$(imagen).addClass('imagenPartido_Header');
-	$(imagen).css('background-image', 'url(IMG/partidos/' + part.imagen + ')');
+	$(imagen).css('background-image', 'url(img/partidos/' + part.imagen + ')');
 	$(container).append(imagen);
 	
 	var nombre = document.createElement('div');
@@ -150,7 +150,7 @@ function HeaderCandidato(cand)
 	
 	var imagen = document.createElement('div');
 	$(imagen).addClass('imagenCandidato');
-	$(imagen).css('background-image', 'url(IMG/candidatos/' + cand.imagen + ')');
+	$(imagen).css('background-image', 'url(img/candidatos/' + cand.imagen + ')');
 	$(container).append(imagen);
 	
 	var cont = document.createElement('div');
