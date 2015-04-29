@@ -10,6 +10,6 @@ Candidato(0, 'David Munro', 'Candidato del PT al gobierno de Colima', 'munro.jpg
 Candidato(0, 'José Francisco Gallardo Rodríguez', 'Candidato de Morena al gobierno de Colima', 'gallardo.jpg', 4, ''),
 Candidato(0, 'Carlos Barbazán Martínez', 'Candidato del Partido Humanista al gobierno de Colima', 'barbazan.jpg', 5, ''),
 Candidato(0, 'Gerardo Galván Pinto', 'Candidato de Encuentro Social al gobierno de Colima', 'galvan.jpg', 6, ''),
-Candidato(0, 'Leoncio Alfonso Morán Sánchez', 'Candidato de Movimiento Ciudadano al gobierno de Colima', 'moran.jpg', 7, ''),
+Candidato(0, 'Leoncio Alfonso Morán Sánchez', 'Candidato de Movimiento Ciudadano al gobierno de Colima', 'moran.jpg', 7, '@leonciomoranL8'),
 ];
 }
