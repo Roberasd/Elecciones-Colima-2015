@@ -33,14 +33,19 @@ Propuesta("Equidad de genero", 'Que las mujeres aspiren a la igualdad en todos l
 Propuesta("Un compromiso con los 10 municipios", 'En Armería, poner en funcionamiento el hospital regional; en Comala, cuidar el medio ambiente; en Colima, sacar vías del tren de la ciudad; en Coquimatlán, construir un gran polideportivo; en Cuauhtémoc, remodelar del centro histórico y mejorar la fisonomía de Quesería, En Manzanillo ampliar libramiento a cuatro carriles hasta la comunidad de El Naranjo; en Minatitlán, construir muro en el cerro Los Copales; en Ixtlahuacán, construir el hospital; en Tecomán, evitar inundaciones, y en Villa de Álvarez, gestionar un auditorio para 12 mil personas', temas.PLANEAMIENTO_URBANO, 1, 0 ),
 
 //Martha Maria Zepeda 
-Propuesta("Educación", "Garantizar alimentación, educación gratuita desde preescolar hasta nivel profesional",  temas.EDUCACION, 2, 0),
-Propuesta("Salud", "Mejorar los servicios de salud y abastecimiento de medicinas",  temas.SALUD, 2, 0),
-Propuesta("Derechos Humanos", "Procurar los derechos humanos de las personas",  temas.DERECHOS_HUMANOS, 2, 0),
-Propuesta("Inversión", "Promover la inversión, detonar con eficiencia al sector turístico",  temas.ECONOMIA, 2, 0),
+Propuesta("Educación", "Garantizar alimentación, educación gratuita desde preescolar hasta nivel profesional.",  temas.EDUCACION, 2, 0),
+Propuesta("Salud", "Mejorar los servicios de salud y abastecimiento de medicinas.",  temas.SALUD, 2, 0),
+Propuesta("Derechos Humanos", "Procurar los derechos humanos de las personas.",  temas.DERECHOS_HUMANOS, 2, 0),
+Propuesta("Inversión", "Promover la inversión, detonar con eficiencia al sector turístico.",  temas.ECONOMIA, 2, 0),
 Propuesta("Seguridad", "Volver a Colima una entidad segura y reducir la deuda pública.",  temas.SEGURIDAD, 2, 0),
+Propuesta("Eliminaremos el fuero constitucional", 'Las acciones contra el interés público, la corrupción, el tráfico de influencias y la malversación de fondos públicos serán tipificadas como delitos graves y sin derecho a fianza. Se eliminará el fuero constitucional, que ha sido la principal causa de la impunidad que existe en el estado y el país.',temas.INSTITUCIONAL,2, 0),
+Propuesta("Sistema Estatal Anticorrupción", 'Se creará la figura de testigo social para observar todas las adquisiciones hechas por las entidades públicas, así como el Observatorio Ciudadano para tener un índice de transparencia y rendición de cuentas que orienten el ejercicio del gasto público.', temas.INSTITUCIONAL, 2, 0),
+Propuesta("Declaración patrimonial obligatoria desde el primer día", 'La declaración patrimonial, fiscal y de conflicto de interés será obligatoria y pública desde el primer día que los funcionarios públicos asuman el cargo.', temas.INSTITUCIONAL, 2, 0),
+Propuesta("Conversión del DIF a Secretaría de la Familia ",'La Secretaría de la Familia, tendrá mayores facultades que el DIF, donde se atenderá de manera amplia y plural el concepto de familia y se buscará una política pública que incida en favor de la familia colimense y la niñez',temas.SOCIEDAD, 2, 0),
+
 
 //José Francisco Gallardo
-Propuesta("Seguridad", 'Buscar el respeto de las autonomías comunitarias, la cuales son la base para restablecer la seguridad. No se trata de tener más policías o cárceles sino de hacer una sociedad organizada con base al respeto a los derechos humanos',  temas.SEGURIDAD, 4, 0),
+Propuesta("Seguridad", 'Buscar el respeto de las autonomías comunitarias, la cuales son la base para restablecer la seguridad. No se trata de tener más policías o cárceles sino de hacer una sociedad organizada con base al respeto a los derechos humanos.',  temas.SEGURIDAD, 4, 0),
 
 //Carlos Barbazán 
 Propuesta("Todos juntos", 'Se Logrará una sinergia con las diferentes instituciones médicas como el IMSS, ISSSTE, Seguro Popular, con el objetivo de que se atienda cualquier emergencia de la población sin importar la institución', temas.SALUD, 5, 0),
@@ -63,7 +68,19 @@ Propuesta("El cuarto eje", 'Cambiar la historia con educación y cultura; útile
 Propuesta("El quinto eje", 'Ofrecer oportunidades y apoyos para grupos vulnerables.', temas.ECONOMIA, 7, 0),
 Propuesta("El sexto eje", 'Dar un servicio de salud de calidad a los colimenses.', temas.SALUD, 7, 0),
 Propuesta("El septimo eje", 'Ofrecer un desarrollo económico sustentable para el mantenimiento y creación Pymes, incentivando la creación de empleos formales al derogar el impuesto del 2 por ciento a la nómina.', temas.ECONOMIA, 7, 0),
-Propuesta("El octavo eje", 'Tratar de invertir en la obra pública donde más se necesita.', temas.ECONOMIA, 7, 0)
+Propuesta("El octavo eje", 'Tratar de invertir en la obra pública donde más se necesita.', temas.ECONOMIA, 7, 0),
+
+
+// David Munro
+Propuesta("Central de abastos", 'Fomentar la comercialización de los productos de los agricultores colimenses a través de la creación de una central de abastos, además de otorgarles apoyos financieros, asesoría legal y comercial por medio de consultores agropecuarios y asociaciones incentivadas por el gobierno', temas.ECONOMIA, 3, 0),
+Propuesta("Comercialización nacional e internacional", 'Promovier bodegas construídas y administradas por el gobierno del estado, en dónde se apoyará con la comercialización nacional e internacional, logrando liquidez y pagando un salario justo para los trabajadores para con ello poder otorgarles seguridad social y vivienda incentivando su economía.', temas.ECONOMIA, 3, 0),
+Propuesta("Carreras en formación de policías", 'Prestaciones y salarios adecuados para los policías. Contar con instituciones educativas tanto públicas o privadas que den carreras o licenciaturas en formación de policías y también en procuradores de justicia.', temas.SEGURIDAD, 3, 0),
+Propuesta("Patrullaje día y noche", 'Promover el patrullaje día y noche en todas las colonias de todo el estado.', temas.SEGURIDAD, 3, 0),
+Propuesta("Abasto de medicamentos", 'Garantizar el abasto de medicamentos a costo accesible y/o gratuitos para atender a la población no asegurada.', temas.SALUD, 3, 0),
+Propuesta("Construccion de centros de salud", 'Adecuar y construir centros de salud en comunidades y zonas donde no se cuenta con las condiciones adecuadas y además tendrán profesionales de la salud que presten servicio todos los días de la semana otorgando a las comunidades rurales, ambulancias para el funcionamiento continuo de los servicios de salud.', temas.SALUD, 3, 0)
+
+
+
 
 
 ];
