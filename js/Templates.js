@@ -66,7 +66,7 @@ function CompartirInicio(tipo)
 	  'related=ytuquepropones&'+
 	  'text='+ '%ytuquepropones las propuestas de todos los candidatos en Colima', 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
 	else
-	  window.open('http://www.facebook.com/dialog/feed?app_id=825676227513877' +
+	  window.open('http://www.facebook.com/dialog/feed?app_id=1641263312770943' +
         '&link=http://ytuquepropones.com' +
         '&picture=http:%2F%ytuquepropones.com%2Fytuquepropones%img%2FshareLogo.png' +
         '&name=' + 'Todas las propuestas de los candidatos en un solo lugar' +
@@ -112,7 +112,7 @@ function HeaderPartido(part)
 	$(facebook).html('Compartí sus propuestas en facebook');
 	$(facebook).click(function(e) {
 		window.open(
-		'http://www.facebook.com/dialog/feed?app_id=825676227513877' +
+		'http://www.facebook.com/dialog/feed?app_id=1641263312770943' +
         '&link=' + escape(window.location.href) +
         '&picture=http:%2F%ytuquepropones.com%2Fvosquepropones%2FIMG%2FshareLogo.png' +
         '&name=' + 'Todas las propuestas de ' + part.nombre +
@@ -194,7 +194,7 @@ function HeaderCandidato(cand)
 	$(facebook).html('Compartilo en facebook');
 	$(facebook).click(function(e) {
 		window.open(
-		'http://www.facebook.com/dialog/feed?app_id=825676227513877' +
+		'http://www.facebook.com/dialog/feed?app_id=1641263312770943' +
         '&link=' + escape(window.location.href) +
         '&picture=http:%2F%ytuquepropones.com%2Fytuquepropones%2FIMG%2FshareLogo.png' +
         '&name=' + 'Todas las propuestas de ' + cand.nombre +
