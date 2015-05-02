@@ -5,8 +5,8 @@ function MostrarContenedor(tipo)
 	{
 		case contenedores.PARTIDOS:
 			template = 
-			"<a class='twitterButton' onclick='javascript:CompartirInicio(0)'>Compartí en Twitter</a>"
-			+"<a class='facebookButton' onclick='javascript:CompartirInicio(1)'>Compartí en Facebook</a>"
+			"<a class='twitterButton' onclick='javascript:CompartirInicio(0)'>Compartír en Twitter</a>"
+			+"<a class='facebookButton' onclick='javascript:CompartirInicio(1)'>Compartír en Facebook</a>"
 			+"<div class='partidosContainer'><div class='title'>Partidos Políticos y Frentes</div></div> ";
 			break;
 		case contenedores.CANDIDATOS:
@@ -64,7 +64,7 @@ function CompartirInicio(tipo)
 	if(tipo == 0)
 	  window.open('https://twitter.com/intent/tweet?'+
 	  'related=ytuquepropones&'+
-	  'text='+ '%ytuquepropones las propuestas de todos los candidatos en Colima', 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
+	  'text='+ '%23ytuquepropones las propuestas de todos los candidatos en Colima', 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
 	else
 	  window.open('http://www.facebook.com/dialog/feed?app_id=1641263312770943' +
         '&link=http://ytuquepropones.com' +
