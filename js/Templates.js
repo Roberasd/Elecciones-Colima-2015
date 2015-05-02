@@ -258,7 +258,7 @@ function CargarAbout()
 	
 	var about = document.createElement('div');
 	$(about).addClass('aboutContainer');
-	$(about).html("La metodología de recopilación de la información se realizó investigando los medios de comunicación locales y los medios sociales de los candidatos, frentes y partidos. <br/><br/> Se considera una propuesta a aquellas consignas cuyo destinatario sea una política pública a realizar en caso de que el candidato sea electo, acciónes políticas y promesas de campaña. <br/><br> <a target='_blank' href='http://ytuquepropones.com/fuentes-informacion.txt' title='Fuentes de información'>Fuentes de información<a>");
+	$(about).html("La metodología de recopilación de la información se realizó investigando los medios de comunicación locales y los medios sociales de los candidatos, frentes y partidos. <br/><br/> <a target='_blank' href='http://ytuquepropones.com/fuentes-informacion.txt' title='Fuentes de información'>Fuentes de información<a>");
 	$('body').append(about);
 	$(about).click(function(e) {
         $('.aboutContainer').animate({marginLeft: '-'+$(this).outerWidth() +'px'},300);
