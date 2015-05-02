@@ -63,16 +63,16 @@ function CompartirInicio(tipo)
 {
 	if(tipo == 0)
 	  window.open('https://twitter.com/intent/tweet?'+
-	  'related=PartidodelaRed&'+
-	  'text='+ '%23yvosquepropones las propuestas de todos los candidatos para CABA en un solo lugar queproponen.com.ar', 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
+	  'related=ytuquepropones&'+
+	  'text='+ '%ytuquepropones las propuestas de todos los candidatos en Colima', 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
 	else
 	  window.open('http://www.facebook.com/dialog/feed?app_id=825676227513877' +
-        '&link=http://queproponen.com.ar' +
-        '&picture=http:%2F%2Fqueproponen.com.ar%2Fvosquepropones%2FIMG%2FshareLogo.png' +
+        '&link=http://ytuquepropones.com' +
+        '&picture=http:%2F%ytuquepropones.com%2Fytuquepropones%img%2FshareLogo.png' +
         '&name=' + 'Todas las propuestas de los candidatos en un solo lugar' +
-        '&caption=' + 'via queproponen.com.ar - Partido de la Red' +
-        '&description=' + 'Conocé todas las propuestas de los candidatos a Jefe de Gobierno de CABA y discutilas directamente con los ellos.' +
-        '&redirect_uri=' + 'http://queproponen.com.ar/close.html' +
+        '&caption=' + 'via http://ytuquepropones.com' +
+        '&description=' + 'Conocé todas las propuestas de los candidatos en Colima.' +
+        '&redirect_uri=' + 'http://ytuquepropones.com/close.html' +
         '&display=popup'
 		, 'Compartí todas las propuestas', 'tweet', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
 }
@@ -114,11 +114,11 @@ function HeaderPartido(part)
 		window.open(
 		'http://www.facebook.com/dialog/feed?app_id=825676227513877' +
         '&link=' + escape(window.location.href) +
-        '&picture=http:%2F%2Fqueproponen.com.ar%2Fvosquepropones%2FIMG%2FshareLogo.png' +
+        '&picture=http:%2F%ytuquepropones.com%2Fvosquepropones%2FIMG%2FshareLogo.png' +
         '&name=' + 'Todas las propuestas de ' + part.nombre +
-        '&caption=' + 'via queproponen.com.ar - Partido de la Red' +
-        '&description=' + 'Conocé todas sus propuestas y la de todos los candidatos a Jefe e Gobierno en la Ciudad' +
-        '&redirect_uri=' + 'http://queproponen.com.ar/close.html' +
+        '&caption=' + 'via ytuquepropones.com' +
+        '&description=' + 'Conocé todas sus propuestas y la de todos los candidatos en la Ciudad' +
+        '&redirect_uri=' + 'http://ytuquepropones.com/close.html' +
         '&display=popup'
 		, 'Compartí todas las propuestas del partido', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
 	});
@@ -196,11 +196,11 @@ function HeaderCandidato(cand)
 		window.open(
 		'http://www.facebook.com/dialog/feed?app_id=825676227513877' +
         '&link=' + escape(window.location.href) +
-        '&picture=http:%2F%2Fqueproponen.com.ar%2Fvosquepropones%2FIMG%2FshareLogo.png' +
+        '&picture=http:%2F%ytuquepropones.com%2Fytuquepropones%2FIMG%2FshareLogo.png' +
         '&name=' + 'Todas las propuestas de ' + cand.nombre +
-        '&caption=' + 'via queproponen.com.ar - Partido de la Red' +
-        '&description=' + 'Conocé todas sus propuestas y la de todos los candidatos a Jefe e Gobierno en la Ciudad' +
-        '&redirect_uri=' + 'http://queproponen.com.ar/close.html' +
+        '&caption=' + 'via ytuquepropones.com' +
+        '&description=' + 'Conocé todas sus propuestas y la de todos los candidatos en la Ciudad' +
+        '&redirect_uri=' + 'http://ytuquepropones.com/close.html' +
         '&display=popup'
 		, 'Compartí todas las propuestas del partido', 'width=900,height=300,menubar=no,status=no,titlebar=no,top=200,left='+(screen.width-900)/2);
 	});
