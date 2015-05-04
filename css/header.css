@@ -1,0 +1,79 @@
+.headerContainer{
+	height: 350px;
+  background-image: url(../img/hands_colorful_a.png), url(../img/hands_colorful_a.png);
+  background-position: left bottom, right bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 50px 0 0;
+	position:relative;
+	z-index: 1;
+}
+
+.headerContainer h1 {
+  color: #C64490;
+  font-size: 85px;
+  font-weight: bold;
+}
+
+.headerContainer p {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin: 20px auto 0;
+  width: 35%;
+}
+
+.headerContainer .banner {
+  background-color: #000033;
+  bottom: 0; left: 0; right: 0;
+  color: #FFF;
+  height: 60px;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  padding: 18px;
+  position: absolute;
+}
+
+@media screen and (max-width: 1024px) {
+  .headerContainer h1 {
+    font-size: 74px;
+  }
+
+  .headerContainer p {
+    font-size: 22px;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headerContainer{
+    background-image: url(../img/hands_colorful_b.png), url(../img/hands_colorful_b.png);
+		height: 300px !important;
+    padding-top: 40px;
+	}
+
+  .headerContainer h1 {
+    font-size: 55px;
+  }
+
+  .headerContainer p {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .headerContainer {
+    padding-top: 40px;
+  }
+
+  .headerContainer h1 {
+    font-size: 34px;
+  }
+
+  .headerContainer p {
+    font-size: 18px;
+    width: 85%;
+  }
+}
